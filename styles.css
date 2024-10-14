@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-color: white;
+    --text-color: black;
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--background-color);
+}
+
+.navbar{
+    text-align: center;
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h1{
+    color: blue;
+    margin: 0 1rem;
+    text-align: center;
+}
+
+h2 h3 {
+    color: #0056b3;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem;
+}
+
+p{
+    color: var(--text-color);
+    margin: 2rem;
+}
+
+#services {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    color: #0056b3;
+}
+
+#about-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form {
+    max-width: 600px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    display: block;
+    margin: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+input[type="submit"] {
+    background-color: #007bff; 
+    color: white; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 16px; 
+
+input[type="submit"]:hover {
+    background-color: black;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    color: black;
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 16px; 
+}
